@@ -1,5 +1,4 @@
-import 'package:flutter_azure_tts/src/ssml/ssml.dart';
-import 'package:flutter_azure_tts/src/voices/voices.dart';
+import 'package:flutter_azure_tts/flutter_azure_tts.dart';
 
 class AudioRequestParams {
   final Voice voice;

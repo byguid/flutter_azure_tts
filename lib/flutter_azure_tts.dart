@@ -9,7 +9,8 @@ export '/src/audio/audio.dart';
 export '/src/auth/auth.dart';
 export '/src/voices/voices.dart';
 export '/src/common/common.dart';
-export "/src/tts/tts_params.dart";
+export '/src/tts/tts_params.dart';
+export '/src/voices/voice_style.dart';
 
 class AzureTts {
   ///Initialises the framework.

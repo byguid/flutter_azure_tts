@@ -1,4 +1,5 @@
 import 'package:flutter_azure_tts/src/voices/voice_model.dart';
+import 'package:flutter_azure_tts/src/voices/voice_style.dart';
 
 class Ssml {
   Ssml(
@@ -26,11 +27,4 @@ class Ssml {
         "${voiceStyle != null ? "<\/mstts:express-as>" : ""}"
         "<\/voice><\/speak>";
   }
-}
-
-class VoiceStyle {
-  final String style;
-  final int degree;
-
-  VoiceStyle({required this.style, this.degree = 1});
 }
