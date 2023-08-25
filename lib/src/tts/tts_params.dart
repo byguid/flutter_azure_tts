@@ -1,4 +1,5 @@
 import 'package:flutter_azure_tts/src/audio/audio_request_param.dart';
+import 'package:flutter_azure_tts/src/ssml/ssml.dart';
 import 'package:flutter_azure_tts/src/voices/voices.dart';
 
 class TtsParams extends AudioRequestParams {
@@ -11,10 +12,12 @@ class TtsParams extends AudioRequestParams {
     required String audioFormat,
     required text,
     double? rate,
+    VoiceStyle? voiceStyle,
   }) : super(
           audioFormat: audioFormat,
           text: text,
           voice: voice,
           rate: rate,
+          voiceStyle: voiceStyle,
         );
 }
